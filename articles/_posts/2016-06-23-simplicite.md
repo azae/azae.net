@@ -5,9 +5,10 @@ authors:
   - Thomas Clavier
 tags:
   - concept
+illustration: /assets/images/articles/simplicity/kiss.jpg
 ---
 
-La complexité engendre des coûts de conception, de maintenance et augmente les risques d'erreurs. De nombreuses équipes agiles utilisent les concepts de simplicité suivant pour ne pas gâcher. On les retrouve souvent sous forme de poster sur les murs de ces équipes.
+La complexité engendre des coûts de conception, de maintenance et augmente les risques d'erreurs. De nombreuses équipes agiles utilisent les concepts de simplicité suivant. On les retrouve souvent sous forme de poster sur les murs de ces équipes.
 
 
 ## KISS
@@ -31,12 +32,12 @@ Pour illustrer ce principe d'autres ont préféré détourner l'acronyme :
 ## Poka yoke
 
 [Poka yoke] signifie anti-erreur en japonais, c'est la version industriel de la simplification. Il s'agit de trouver des solution pour apporter un feedback très rapide sur les erreurs ou prévoir un système résistant aux étourderies : un détrompeur, une forme asymétrique, une prise réversible. 
-Dans le domain du logiciel on pourra par exemple : déclencher une erreur s'il manque un composant, rendre un appel de méthode idempotent, etc.
+Dans le domain du logiciel on pourra par exemple : utiliser le typage fort, déclencher une erreur s'il manque un composant, rendre un appel de méthode idempotent, etc.
 
 
 ## Conslusion
 
-En simplifiant au niveau technique ([KISS] et [DRY]) et au niveau fonctionnel ([YAGNI] et [Poka koke]) on réduit les coûts de maintenance et on baisse les risques d'erreurs.
+En simplifiant au niveau technique ([KISS], [DRY], [Poka yoke]) et au niveau fonctionnel ([YAGNI], [Poka yoke]) on réduit les coûts de maintenance et on baisse les risques d'erreurs.
 Seulement attention, faire simple implique de pouvoir amender tout ou partie du système en permanence, pour ajouter chaque nouvelle petite fonctionnalité. 
 Ce qui impose d'avoir une bonne stratégie de test et s'assurer ainsi que chaque changement ne présente aucune régression.
 
