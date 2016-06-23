@@ -1,5 +1,5 @@
 ---
-title: Tactique Téhorique
+title: Tactique Théorique
 subtitle: Yakovleff, Michel
 tags:
   - book
