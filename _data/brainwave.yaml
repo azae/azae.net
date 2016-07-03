@@ -1,5 +1,5 @@
 - name: Buurtzorg
-  link: www.buurtzorgnederland.com/
+  link: http://www.buurtzorgnederland.com/
   logo: logo-buurtzorg.jpg
 
 - name: Favi
@@ -11,7 +11,7 @@
   logo: logo-gore.png
 
 - name: Patagonia
-  link: www.patagonia.com/fr/‎
+  link: http://www.patagonia.com/fr/
   logo: logo-patagonia.png
 
 - name: Semco Partners
