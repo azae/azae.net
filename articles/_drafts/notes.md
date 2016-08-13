@@ -7,4 +7,5 @@ title: Idées d'articles
 - Story mapping
 - Product Box
 - VSM
-
+- BDD
+- startégie de test
