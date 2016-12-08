@@ -3,7 +3,8 @@ if [ -z $http_proxy ]
 then
   BUILD_OPTS=""
 else
-  [ "$http_proxy" == "http://localhost:8123" ] && PROXY="http://172.17.0.1:8123/" || PROXY="$http_proxy"
+  IS_LOCAL_PROXY=$(echo $http_proxy | grep -c localhost)
+  [ $IS_LOCAL_PROXY -eq 1 ] && PROXY="$(echo $http_proxy | sed -e 's/localhost/172.17.0.1/')" || PROXY="$http_proxy"
   BUILD_OPTS="--build-arg http_proxy=$PROXY"
 fi
 
