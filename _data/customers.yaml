@@ -6,6 +6,10 @@
   link: http://www.adeo.com/
   logo: logo-adeo.png
 
+- name: AG2R La Mondiale
+  link: http://www.ag2rlamondiale.fr/
+  logo: logo-ag2r-lamondiale.png
+
 - name: Agymat
   link: https://www.materiauxnet.com/qui-sommes-nous/
   logo: logo-agymat.png
@@ -17,6 +21,10 @@
 - name: Auchan
   link: http://www.auchan.com/
   logo: logo-auchan.jpg
+
+- name: Auchan:Direct
+  link: http://www.auchandirect.com/
+  logo: logo-auchan-direct.svg
 
 - name: Banque Accord
   link: https://www.banque-accord.fr/
@@ -57,6 +65,10 @@
 - name: Smartesting
   link: http://www.smartesting.com/
   logo: logo-smartesting.jpg
+
+- name: Société Générale
+  link: http://www.societegenerale.com/
+  logo: logo-societe-generale.svg
 
 - name: Sopra Steria
   link: www.soprasteria.com/
