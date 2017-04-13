@@ -59,6 +59,7 @@ Au bout d'un temps donné, ou une fois que l'équipe arrive à faire moins d'une
 Il est possible d'avoir différentes variantes. Il est entre autre possible de changer les contraintes, les postures d'animateurs, etc.
 
 Notons particulièrement : 
+
 - mettre de la pression pour aller le plus vite possible
 - ajouter des contraintes en début de jeu : jamais de voisin direct, si les balles sont de couleur, garder l'ordre des balles, etc.
 - varier les contraintes en cours de jeu (le client a changé d'avis)
