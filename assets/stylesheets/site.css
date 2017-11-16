@@ -3,6 +3,6 @@ layout: null
 nositemap: true
 ---
 {% include stylesheets/bootstrap-3.3.6.min.css %}
-{% include stylesheets/font-awesome-4.5.0.min.css %}
+{% include stylesheets/font-awesome-4.7.0.min.css %}
 {% include stylesheets/socicon.css %}
 {% include stylesheets/style.css %}
