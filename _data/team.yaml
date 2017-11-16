@@ -31,9 +31,20 @@
   - url: https://www.linkedin.com/in/olivieralbiez
     icon: fa-linkedin
   bio: >
-    Je suis artisan logiciel et coach agile, passionné des méthodes de travail et de l'auto-organisation dans
+      Je suis artisan logiciel et coach agile, passionné des méthodes de travail et de l'auto-organisation dans
     les entreprises. Curieux par nature, je suis toujours à la recherche de ce qui peut améliorer le travail
     collectif d'une organisation. Je suis récemment co-fondateur de deliverous. Je suis signataire des
     manifestes [Artisans du Logiciel](http://manifesto.softwarecraftsmanship.org/) et [Agile](http://agilemanifesto.org/)
   mail: oalbiez@azae.net
   mobile: "+33662767812"
+
+- name: Julie Quillé
+  vcard_name: "Quillé;Julie"
+  photo: /assets/images/julie.quille.jpg
+  social:
+  - url: https://www.linkedin.com/in/juliequille
+    icon: fa-linkedin
+  bio: >
+    Passionnée par l’être humain, la psychologie et la sociologie, j’accompagne les personnes et les équipes dans leur cheminement vers plus de responsabilité et de liberté individuelles. La Communication Bienveillante (CNV) est mon outil de prédilection. Dans un dynamique d’amélioration continue, il me tient à cœur d’élargir en permanence mes domaines de compétences, par des lectures, des     recherches, des formations, mais surtout à travers des échanges et de l’expérimentation. Ce sont mes intérêts pour l’épanouissement au travail, l’adaptabilité et le travail collaboratif qui m’ont amené à l’agilité et au coaching d’équipes.
+  mail: jquille@azae.net
+  mobile: "+33635589381"
