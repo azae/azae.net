@@ -70,6 +70,7 @@ description: >
       <h2>
       {{member.name}}
       <span class="circled-icon">
+        <a href='{{member.cv}}'><i class='fa '>CV</i></a>
         {% for link in member.social %}
           <a href='{{link.url}}'><i class='fa {{link.icon}}'></i></a>
         {% endfor %}

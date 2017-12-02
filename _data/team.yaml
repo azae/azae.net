@@ -1,6 +1,7 @@
 - name: Thomas Clavier
   vcard_name: "Clavier;Thomas"
   photo: /assets/images/thomas.clavier.jpg
+  cv: /assets/cv/thomas.clavier.pdf
   social:
   - url: https://github.com/tclavier
     icon: fa-github
@@ -23,6 +24,7 @@
 - name: Olivier Albiez
   vcard_name: "Albiez;Olivier"
   photo: /assets/images/olivier.albiez.jpg
+  cv: /assets/cv/olivier.albiez.pdf
   social:
   - url: https://github.com/oalbiez
     icon: fa-github
@@ -41,6 +43,7 @@
 - name: Julie Quillé
   vcard_name: "Quillé;Julie"
   photo: /assets/images/julie.quille.jpg
+  cv: /assets/cv/julie.quille.pdf
   social:
   - url: https://github.com/Makoti
     icon: fa-github
