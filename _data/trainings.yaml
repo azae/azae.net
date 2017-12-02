@@ -4,15 +4,42 @@
   description: "Découvrir les méthodes agiles et en expérimenter des pratiques"
   tags: [methods, beginers]
   presentation: |
+    Cette formation de deux jours a pour objectifs de faire découvrir les bases de l'agilité : sa philosophie, ses pratiques, la raison d'être et comment l'implémenter. Elle est destinée aux équipes IT qui souhaitente entamer ou poursuivre une transformation vers l'agilité. Cette introduction à l'agilité s'adapte aux différentes équipes et reste une occasion pour tous de découvrir, d'approfondir ou d'enrichir sa conaissance de l'agiité et des différents possibles.
   objective: |
+    - initiation aux pratiques agiles
+    - comprendre et utiliser les principales méthodes agiles
   prerequists: |
-  duration:
+    - Avoir participé à un projet informatique
+    - Avoir de l'autonomie et de la motivation
+  duration: 2 jours alternant théorie et *pratique sur vos projets*.
   plan: |
+    - Pourquoi l'agilité ?
+    - Un peu d'histoire
+    - Présentation générale
+    - Les rôles
+    - Définir les besoins
+    - Gérer l'itération
+    - Quelques bonnes pratiques
+
 
 - title: Devops
   key: devops
   description: "Comprendre la philosophie Devops et son implication dans une organisation"
   tags: [methods, beginers]
+  presentation: |
+  objective: |
+    - Détailler les divergeances stratégiques entre développeurs et opérationnels
+    - Identifier les majques de communication entre ces équipes
+    - Rapprocher les processus de déploiement et de mise en production
+    - Industrialiser au-delà du développement
+    - Comprendre le concept d'infrastructure as code
+  prerequists: |
+  plan: |
+    - Initiative devops
+    - Dev et ops
+    - Rapprochement des équipes
+    - Etapes d'une démarche devops
+
 
 - title: Introduction à Docker par la pratique
   key: practical-docker
@@ -42,18 +69,42 @@
   key: software-craftmanship
   description: "S'initier aux bonnes pratiques de l'artisanat logiciel"
   tags: [technical, beginers]
+  presentation: |
+  objective: |
+  prerequists: |
+  duration:
+  plan: |
+
 
 - title: Intelligence Collective
   key: collective-intelligence
   description: "Découvrir les outils de l'intelligence collective et apprendre à les mettre en œuvre"
   tags: [methods, beginers]
+  presentation: |
+  objective: |
+  prerequists: |
+  duration:
+  plan: |
+
 
 - title: Git par la pratique
   key: practical-git
   description: "4h pour découvrir git et ses secrets"
   tags: [technical, beginers]
+  presentation: |
+  objective: |
+  prerequists: |
+  duration:
+  plan: |
+
 
 - title: Le leadership agile
   key: agile-leadership
   description: "Appréhender les clés de la direction agile"
   tags: [methods]
+  presentation: |
+    Cette formation a pour objectif de travailler sur le leadership de chacun. Que ce soit dans le cadre d'une évolution du rôle de manager vers un rôle de leader, ou une volonté d'augmenter le leadership de chacun au sein d'une équipe, une formation de 3 jours répartie en 5 modules est une réelle opportunité pour chacun d'évoluer dans sa posture.
+  objective: |
+  prerequists: |
+  duration: 3 jours répartis sur 1 journée et 4 demie-journée, idéalement espacées de 3 semaines
+  plan: |
