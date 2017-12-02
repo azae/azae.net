@@ -2,15 +2,11 @@
 - title: Introduction aux méthodes agiles
   description: "Découvrir les méthodes agiles et en expérimenter des pratiques"
   tags: [methods, beginers]
+  présentation: |
   objective: |
-    - bla
   prerequists: |
-    - bla
-  duration: 2 jours alternant théorie et *pratique sur vos projets*.
+  duration: 
   plan: |
-    - bla
-    - bla
-    - bla
 
 - title: Devops
   description: "Comprendre la philosophie Devops et son implication dans une organisation"
@@ -19,6 +15,25 @@
 - title: Introduction à Docker par la pratique
   description: "Découvrir Docker et les container applicatifs en deux jours de pratiques"
   tags: [technical, beginers]
+présentation: |
+  Cette formation de 2 jours vous fournira une introduction à Docker et aux dernières technologies de conteneurs applicatifs. Elle est destinée aux administrateurs et aux développeurs souhaitant appréhender l'utilisation des conteneurs applicatifs. *L'ensemble des travaux pratiques seront réalisés sur vos projets*. Cette approche pratique axée sur les cas concrets de vos entreprises permet une meilleure assimilation. *La formation est illustrée* de nombreux cas d'utilisation directement tirés *de notre expérience*, pipeline de déploiement continu, cloud privé, automatisation du poste de développement, etc.
+  objective: |
+    - Appréhender l'utilisation de Docker
+    - Comprendre et utiliser Docker au sein de vos projets
+  prerequists: |
+    - Avoir participé à un projet informatique
+    - Avoir de l'autonomie et de la motivation
+    - Quelques bases en shell
+  duration: 2 jours alternant théorie et *pratique sur vos projets*.
+  plan: |
+    - Pourquoi Docker ?
+    - Principe de fonctionnement de Docker (cycle de vie du conteneur et découverte de l'API)
+    - Créer des conteneurs Docker
+    - Gérer des containers et des images Docker
+    - Orchestration des containers
+    - Docker et la sécurité
+    - L'intégration avec les autres outils du marché
+http://deliverous.com/assets/documents/formation-docker.pdf
 
 - title: Software craftmanship
   description: "S'initier aux bonnes pratiques de l'artisanat logiciel"
