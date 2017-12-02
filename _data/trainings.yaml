@@ -2,6 +2,15 @@
 - title: Introduction aux méthodes agiles
   description: "Découvrir les méthodes agiles et en expérimenter des pratiques"
   tags: [methods, beginers]
+  objective: |
+    - bla
+  prerequists: |
+    - bla
+  duration: 2 jours alternant théorie et *pratique sur vos projets*.
+  plan: |
+    - bla
+    - bla
+    - bla
 
 - title: Devops
   description: "Comprendre la philosophie Devops et son implication dans une organisation"
