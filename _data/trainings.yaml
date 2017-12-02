@@ -1,5 +1,6 @@
 
 - title: Introduction aux méthodes agiles
+  key: agile-introduction
   description: "Découvrir les méthodes agiles et en expérimenter des pratiques"
   tags: [methods, beginers]
   présentation: |
@@ -9,10 +10,12 @@
   plan: |
 
 - title: Devops
+  key: devops
   description: "Comprendre la philosophie Devops et son implication dans une organisation"
   tags: [methods, beginers]
 
 - title: Introduction à Docker par la pratique
+  key: practical-docker
   description: "Découvrir Docker et les container applicatifs en deux jours de pratiques"
   tags: [technical, beginers]
 présentation: |
@@ -36,17 +39,21 @@ présentation: |
 http://deliverous.com/assets/documents/formation-docker.pdf
 
 - title: Software craftmanship
+  key: software-craftmanship
   description: "S'initier aux bonnes pratiques de l'artisanat logiciel"
   tags: [technical, beginers]
 
 - title: Intelligence Collective
+  key: collective-intelligence
   description: "Découvrir les outils de l'intelligence collective et apprendre à les mettre en œuvre"
   tags: [methods, beginers]
 
 - title: Git par la pratique
+  key: practical-git
   description: "4h pour découvrir git et ses secrets"
   tags: [technical, beginers]
 
 - title: Le leadership agile
+  key: agile-leadership
   description: "Appréhender les clés de la direction agile"
   tags: [methods]
