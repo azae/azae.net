@@ -90,6 +90,7 @@
 
 - title: Git par la pratique
   key: practical-git
+  illustration: /assets/training/practical-git.png
   description: "4h pour découvrir git et ses secrets"
   tags: [technical, beginers]
   presentation: |
