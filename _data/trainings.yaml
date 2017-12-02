@@ -23,7 +23,8 @@
 
 
 - title: Devops
-  key: devops
+  key: devops-introduction
+  illustration: /assets/training/devops-introduction.png
   description: "Comprendre la philosophie Devops et son implication dans une organisation"
   tags: [methods, beginers]
   presentation: |
