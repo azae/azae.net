@@ -16,6 +16,7 @@
 
 - title: Introduction à Docker par la pratique
   key: practical-docker
+  illustration: /assets/training/practical-docker.png
   description: "Découvrir Docker et les container applicatifs en deux jours de pratiques"
   tags: [technical, beginers]
   presentation: |

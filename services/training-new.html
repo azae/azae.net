@@ -1,0 +1,102 @@
+---
+layout: with-title
+title: Formations
+permalink: /services/training-new/
+description: >
+    Nous pouvons réaliser n’importe quelle formation autour des domaines suivants: Les méthodes agiles (Scrum, Kanban, eXtrem Programming, Lean, ...), Devops, Software caftmanship (TDD, BDD, refactoring, clean code, ...), Technique (Docker, Java, Go, Puppet, Python), L’intelligence collective, Lean startup.
+---
+<div class="row">
+    <div class="col-md-12 jumbotron">
+        <p>Nous pouvons réaliser n’importe quelle formation autour des domaines suivants</p>
+        <ul>
+            <li>Les méthodes agiles (Scrum, Kanban, eXtrem Programming, Lean, etc.)</li>
+            <li>Devops</li>
+            <li>Software caftmanship (Test Driven Development (TDD), Behavior Driven Development (BDD), refactoring, clean code, etc.)</li>
+            <li>Technique (Docker, Java, Go, Puppet, Python)</li>
+            <li>L’intelligence collective</li>
+            <li>Lean startup</li>
+            <li>Leadership agile</li>
+            <li>Managment 3.0</li>
+        </ul>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <h2>Nos formations déjà réalisées</h2>
+    </div>
+</div>
+
+{% for training in site.data.trainings %}
+<div class="panel panel-default">
+  <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" data-target="#collapse-{{training.key}}">
+    <h3 class="panel-title color-chameleon">
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapse-{{training.key}}">
+        {{ training.title }}
+      </a>
+    </h3>
+    <p>{{training.description}}</p>
+  </div>
+  <div id="collapse-{{training.key}}" class="panel-collapse collapse">
+    <div class="panel-body">
+      <div class='row'>
+        <div class='col-md-4 text-center'>
+          <img alt="illustration" src="{{training.illustration}}" width="260" />
+        </div>
+        <div class='col-md-8'>
+          {% if training.presentation %}
+            <h2>Présentation</h2>
+            {{training.presentation | markdownify}}
+          {% endif %}
+        </div>
+      </div>
+      <div class='row'>
+        <div class='col-md-1 icon'>
+          <i class='fa fa-fw fa-flag-checkered'></i>
+        </div>
+        <div class='col-md-5'>
+          {% if training.objective %}
+            <h2>Objectifs</h2>
+            {{training.objective | markdownify}}
+          {% endif %}
+        </div>
+        <div class='col-md-1 icon'>
+          <i class='fa fa-fw fa-clock-o'></i>
+        </div>
+        <div class='col-md-5'>
+          {% if training.duration %}
+            <h2>Durée</h2>
+            {{training.duration | markdownify}}
+          {% endif %}
+        </div>
+      </div>
+      <div class='row'>
+        <div class='col-md-1 icon'>
+          <i class='fa fa-fw fa-check-square-o'></i>
+        </div>
+        <div class='col-md-5'>
+          {% if training.prerequists %}
+            <h2>Pré-requis</h2>
+            {{training.prerequists | markdownify}}
+          {% endif %}
+        </div>
+        <div class='col-md-1 icon'>
+          <i class='fa fa-fw fa-list-alt'></i>
+        </div>
+        <div class='col-md-5'>
+          {% if training.plan %}
+            <h2>Plan de formation</h2>
+            {{training.plan | markdownify}}
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}
+
+<div class="row spacer-40">
+    <div class="col-md-12">
+        <p>Toutes nos formations sont adaptables à vos besoins propres. N’hésitez pas à nous contacter.</p>
+        <p><i>Déclaration d’activité de formation enregistrée sous le numéro 31&nbsp;59&nbsp;08320&nbsp;59 auprès du préfet de région de Nord-Pas de Calais.</i></p>
+    </div>
+</div>
