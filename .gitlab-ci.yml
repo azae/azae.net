@@ -1,0 +1,8 @@
+build_image:
+  image: docker:latest
+  services:
+    - docker:dind
+  script:
+    - docker login registry.gitlab.com -u tclavier -p $DOCKER_TOKEN
+    - docker build -t registry.gitlab.com/azae/azae.net .
+    - docker push registry.gitlab.com/azae/azae.net
