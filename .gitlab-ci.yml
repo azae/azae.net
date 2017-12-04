@@ -1,4 +1,8 @@
-build_image:
+stages:
+  - build
+  - deploy
+
+build:
   image: docker:latest
   services:
     - docker:dind
