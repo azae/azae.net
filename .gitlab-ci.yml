@@ -3,6 +3,7 @@ stages:
   - deploy
 
 build:
+  stage: build
   image: docker:latest
   services:
     - docker:dind
@@ -12,5 +13,6 @@ build:
     - docker push registry.gitlab.com/azae/azae.net
 
 deploy:
+  stage: deploy
   script:
     - curl -X POST -data=""  https://deliverous.com/api/v1/trigger/$DELIVEROUS_TRIGGER
